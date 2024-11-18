@@ -1,0 +1,11 @@
+{
+    "extends": "@ringieraxelspringer/tsconfig",
+    "compilerOptions": {
+        "jsx": "react",
+        "skipLibCheck": true,
+        "lib": [
+            "dom",
+            "esnext"
+        ]
+    }
+}

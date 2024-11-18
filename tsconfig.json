@@ -1,0 +1,12 @@
+{
+    "extends": "@ringieraxelspringer/tsconfig",
+    "compilerOptions": {
+        "jsx": "react",
+        "noEmit": true,
+        "rootDir": ".",
+        "skipLibCheck": true
+    },
+    "include": [
+        "src",
+    ]
+}
