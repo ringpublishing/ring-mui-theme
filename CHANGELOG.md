@@ -2,6 +2,13 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.0.0] - 2023-11-26
+### Changed
+- [@jpalis]: Changed typography.
+
+### Added
+- [@jpalis]: Added MuiFormLabel styles in `Autocomplete`. 
+
 ## [0.1.0] - 2023-10-30
 ### Added
 - [@jpalis]: Added config files for theme creation (breakpoints, palette, shape, spacing, typography).
