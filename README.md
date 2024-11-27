@@ -8,7 +8,7 @@ html {
 }
 ```
 
-## Ring Mui Theme version 0.1.0 supports:
+## Ring Mui Theme version 1.x.x supports:
 * "@mui/material": "^5.0.0"
 * "@mui/x-data-grid": "7.14.0"
 * "@mui/x-data-grid-pro": "7.14.0"
