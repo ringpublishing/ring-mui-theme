@@ -23,7 +23,7 @@ npm install @ringpublishing/ring-mui-theme
 
 ## Minimal usage example
 ```jsx
-import {ThemeConfig} from '@ring-internal/ring-mui-theme';
+import {ThemeConfig} from '@ringpublishing/ring-mui-theme';
 import {TablePagination} from '@mui/material';
 function App() {
     return(
@@ -47,7 +47,7 @@ function App() {
 ### Note: default language is 'enUS' and it works 'out of the box', if you want to support other locales follow example below.
 ### PL locales for mui core also are available, just set language to 'plPL'
 ```jsx
-import {ThemeConfig} from '@ring-internal/ring-mui-theme';
+import {ThemeConfig} from '@ringpublishing/ring-mui-theme';
 import {TablePagination} from '@mui/material';
 import { zhCN } from '@mui/material/locale';
 import { plPL as xDataGridPl } from '@mui/x-data-grid/locales';
@@ -72,7 +72,7 @@ function App() {
 
 ## With custom components theme fragment
 ```jsx
-import {ThemeConfig} from '@ring-internal/ring-mui-theme';
+import {ThemeConfig} from '@ringpublishing/ring-mui-theme';
 import {TablePagination} from '@mui/material';
 
 function App() {
