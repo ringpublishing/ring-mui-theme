@@ -18,7 +18,7 @@ html {
 ## Installation
 
 ```shell
-npm install @ring-internal/ring-mui-theme
+npm install @ringpublishing/ring-mui-theme
 ```
 
 ## Minimal usage example
