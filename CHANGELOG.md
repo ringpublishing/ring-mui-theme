@@ -2,7 +2,24 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
-## [1.0.0] - 2023-11-27
+## [1.1.0] - 2024-01-02
+
+### Added
+
+- [@jpalis]: Added missing `publishConfig`.
+- [@jpalis]: Added .npmignore.
+
+### Changed
+
+- [@jpalis]: Changed name to `@ringpublishing/mui-theme`.
+- [@jpalis]: Changed required libs to match UI-Components (Mui = 5.15.x, mui-x libs <= 7.x.x)
+
+### Fixed
+
+- [@jpalis]: Fixed dependencies.
+- [@jpalis]: Fixed license in package.json.
+
+## [1.0.0] - 2024-11-27
 
 ### Changed
 
@@ -14,7 +31,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - [@jpalis]: Added LICENSE.md file.
 - [@jpalis]: Added MuiFormLabel styles in `Autocomplete`. 
 
-## [0.1.0] - 2023-10-30
+## [0.1.0] - 2024-10-30
 
 ### Added
 
@@ -23,7 +40,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - [@jpalis]: Added `ThemeConfig` component with MUI `ThemeProvider` inside. 
 - [@jpalis]: Added test for getTheme() and `ThemeConfig`.
 
-## [0.0.0] - 2023-10-21
+## [0.0.0] - 2024-10-21
 
 ### Added
 

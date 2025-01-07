@@ -1,13 +1,16 @@
 {
-  "name": "@ringpublishing/ring-mui-theme",
-  "version": "1.0.0",
+  "name": "@ringpublishing/mui-theme",
+  "version": "1.1.0",
   "description": "Ring Mui Theme",
-  "license": "MIT",
+  "license": "LGPL-3.0-or-later",
   "repository": {},
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "engines": {
     "node": "^18||^20"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "watch": "tsc --watch",
@@ -27,7 +30,7 @@
     "@mui/x-data-grid": "7.14.0",
     "@ringieraxelspringer/eslint-config": "^23.0.0",
     "@ringieraxelspringer/tsconfig": "^6.0.0",
-    "@testing-library/react": "^16.0.1",
+    "@testing-library/react": "16.0.1",
     "@vitejs/plugin-react": "^4.3.3",
     "jsdom": "^25.0.1",
     "react": "^18.0.0",
@@ -38,12 +41,12 @@
   },
   "peerDependencies": {
     "@emotion/styled": "^11.0.0",
-    "@mui/material": "^5.0.0",
+    "@mui/material": "~5.15.0",
     "react": "^18.0.0",
-    "@mui/x-data-grid": "7.14.0",
-    "@mui/x-data-grid-pro": "7.14.0",
-    "@mui/x-date-pickers": "7.14.0",
-    "@mui/x-date-pickers-pro": "7.14.0"
+    "@mui/x-data-grid": "^7.0.0",
+    "@mui/x-data-grid-pro": "^7.0.0",
+    "@mui/x-date-pickers": "^7.0.0",
+    "@mui/x-date-pickers-pro": "^7.0.0"
   },
   "peerDependenciesMeta": {
     "@mui/x-data-grid": {
