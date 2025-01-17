@@ -28,3 +28,4 @@ jobs:
             test-js-framework: jest
             test-js-enabled: true
             node-version: "20"
+            npm-registry: npmjs
