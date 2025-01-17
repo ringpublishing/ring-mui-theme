@@ -1,0 +1,30 @@
+name: Node Library Build and Deployment
+on:
+    push:
+        branches:
+            - master
+    pull_request:
+        branches:
+            - "**"
+    workflow_dispatch:
+        inputs:
+            is-force-build:
+                default: false
+                description: Force full build.
+                required: true
+                type: boolean
+concurrency:
+    cancel-in-progress: true
+    group: ${{ github.workflow }}-${{ github.ref }}
+jobs:
+    ci-cd:
+        name: CI/CD
+        uses: ringier-axel-springer-pl/sdk-workflow-node-library/.github/workflows/shared.yaml@v1
+        secrets:
+            npm-token: ${{ secrets.NPM_TOKEN }}
+        with:
+            # Possible workflow parameters: https://github.com/ringier-axel-springer-pl/sdk-workflow-node-library
+            is-force-build: ${{ inputs.is-force-build || false }}
+            test-js-framework: jest
+            test-js-enabled: true
+            node-version: "20"
